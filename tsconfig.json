@@ -24,7 +24,8 @@
       }
     ],
     "paths": {
-      "CoreContainer": ["src/core/ioc/ioc.ts"],
+      "@CoreContainer": ["src/core/ioc/ioc.ts"],
+      "@Common": ["src/core/common/index.ts"],
       "@Core/Types": ["types/core/index.d.ts"],
       "@Packages": ["src/core/packages/packages.ts"]
     }
